@@ -1,3 +1,13 @@
+from NixessimulationBackend import (
+    LEVELS,
+    GO_TO_MARKET_DECISIONS,
+    PRODUCT_RND_DECISIONS,
+    PLANTS_MANAGEMENT_DECISIONS,
+    CORPORATE_DECISIONS,
+    calculate_kpi_impact,
+    calculate_overall_kpis
+)
+
 import streamlit as st
 import pandas as pd
 import numpy as np
